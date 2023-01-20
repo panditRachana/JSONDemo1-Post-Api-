@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80341BF729277C570046E7FA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80341BF629277C570046E7FA /* Post.swift */; };
+		80341BFA29277CD50046E7FA /* CellPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80341BF829277CD50046E7FA /* CellPost.swift */; };
+		80341BFB29277CD50046E7FA /* CellPost.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80341BF929277CD50046E7FA /* CellPost.xib */; };
 		807510AB29268CCA004CA6A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807510AA29268CCA004CA6A9 /* AppDelegate.swift */; };
 		807510AD29268CCA004CA6A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807510AC29268CCA004CA6A9 /* SceneDelegate.swift */; };
 		807510AF29268CCA004CA6A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807510AE29268CCA004CA6A9 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80341BF629277C570046E7FA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		80341BF829277CD50046E7FA /* CellPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellPost.swift; sourceTree = "<group>"; };
+		80341BF929277CD50046E7FA /* CellPost.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellPost.xib; sourceTree = "<group>"; };
 		807510A729268CCA004CA6A9 /* JSONDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807510AA29268CCA004CA6A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		807510AC29268CCA004CA6A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				807510AA29268CCA004CA6A9 /* AppDelegate.swift */,
 				807510AC29268CCA004CA6A9 /* SceneDelegate.swift */,
 				807510AE29268CCA004CA6A9 /* ViewController.swift */,
+				80341BF629277C570046E7FA /* Post.swift */,
+				80341BF829277CD50046E7FA /* CellPost.swift */,
+				80341BF929277CD50046E7FA /* CellPost.xib */,
 				807510B029268CCA004CA6A9 /* Main.storyboard */,
 				807510B329268CD0004CA6A9 /* Assets.xcassets */,
 				807510B529268CD0004CA6A9 /* LaunchScreen.storyboard */,
@@ -128,6 +137,7 @@
 				807510B729268CD0004CA6A9 /* LaunchScreen.storyboard in Resources */,
 				807510B429268CD0004CA6A9 /* Assets.xcassets in Resources */,
 				807510B229268CCA004CA6A9 /* Main.storyboard in Resources */,
+				80341BFB29277CD50046E7FA /* CellPost.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +151,8 @@
 				807510AF29268CCA004CA6A9 /* ViewController.swift in Sources */,
 				807510AB29268CCA004CA6A9 /* AppDelegate.swift in Sources */,
 				807510AD29268CCA004CA6A9 /* SceneDelegate.swift in Sources */,
+				80341BF729277C570046E7FA /* Post.swift in Sources */,
+				80341BFA29277CD50046E7FA /* CellPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
